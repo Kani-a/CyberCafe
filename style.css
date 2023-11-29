@@ -1,0 +1,502 @@
+
+html,body{
+	background:#000000;
+  margin:0px;
+  color: white;
+  font-size: 25px;
+}
+
+html{
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+  background-color: black;
+
+}
+html::-webkit-scrollbar-thumb{
+  height: 10px;
+ background: linear-gradient(45deg,red,blue,purple);
+  border-radius: 50px;
+  width: 50px;
+}
+
+
+
+
+table {
+		 
+	 background:    #FF8C00;
+	 border-radius:20px;
+	 font-family:Comic Sans Ms;
+         font-weight: bold;
+         color: black;
+         max-width: 90px; 
+         width: 25px;
+
+ }
+ 
+ center{
+ 
+      font-size: 20px;
+	  font-family:Comic Sans Ms;
+      font-weight: bold;
+	  color:  black;
+ 
+ 
+ }
+
+
+
+a{
+   text-decoration: none;
+    color:inherit;  
+ }
+ 
+ 
+
+hr  {
+    border:  30px;
+    height: 20px;
+    /* Set the hr color */
+    color:    #FF8C00; /* old IE */
+    background-color:   #FF8C00;/* Modern Browsers */
+}
+
+
+.myDiv {
+background:orange;
+height: 10px;
+width: 100%;
+display: flex;
+align-items: end;
+
+
+position: relative;
+top:10px;
+}
+div.myDiv a{
+  text-align: center;
+  background-color: black;
+  margin:1px;
+  padding: 0px;
+  width: 100%;
+
+  position: relative;
+  bottom:10px;
+}div.mydiv a:hover{
+  
+
+  background:#272727;
+  border-right: 1px solid #ffffff;
+border-bottom: 2px solid #ffffff;
+
+  box-shadow: -3px 2px 57px 5px rgba(255,255,255,1);
+-webkit-box-shadow: -3px 2px 57px 5px rgba(255,255,255,1);
+-moz-box-shadow: -3px 2px 57px 5px rgba(255,255,255,1);
+}
+
+b{
+		 color: #000000;
+		  font-size: 85px;
+      text-shadow: 1px -1px 0px #b908ff, 
+               -1px 1px 0px #2701ff,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+			    font-family: CoffeCake;
+          font-size: 55px;
+        	color: #c20000; 
+}
+
+t{
+    margin-left:10px;
+    margin-right: 10px;
+    color: #000000;
+		  font-size: 85px;
+      text-shadow: 1px -1px 0px #000000, 
+               -1px 1px 0px #0a0a0a,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+			    font-family: Rosalia;
+          font-size: 25px;
+        	color: white; 
+}
+.cointainer_nome_do_Cybercafe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    height: 100px;
+
+}
+
+
+/* pagina menu */
+section.cafes{
+    width: 100%;
+    display:flex;
+
+    padding:14px;
+  }
+  div.cafes{
+    min-width:150px;
+    height: 150px;
+    display: flex;
+    align-items: end;
+  }
+  section.cafes lu{
+    display: inline;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 14px;
+  }
+  section.cafes li {
+    margin: 5px;
+
+    width:100%;
+    max-width: 1200px;
+    max-height: 200px;
+    
+    flex-wrap: nowrap;
+    text-wrap: wrap;
+   
+    columns: 1;
+    display: inline-flex;
+    border:2px solid greenyellow;
+    background-color: white;
+
+  }
+  section.cafes p{
+    width: 70%;
+
+    position: relative;
+
+    text-align: justify;
+    text-justify: inter-word;
+
+    font-size: 20px;
+    padding: 10px;
+   
+
+    background-color: grey;
+  }
+  section.cafes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+    border: none;
+  }
+  section.cafes label{
+    display: flex;
+   
+    color: black;
+    
+    font-size: 30px;
+    text-wrap: nowrap;
+    
+    text-decoration-line:underline;
+  }
+
+
+  /* pagina home */
+/* div com o conteudo da pagina */
+.body{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+section.body-header{
+  width: 100%;
+  height: auto;
+
+  display:  flex;
+  flex-direction: row;
+  
+  justify-content: start;
+  align-items: center;
+
+}
+.img-logo{
+  max-width: 500px;
+  max-height: 500px;
+  position: static;
+  top: -900;
+
+}
+/* texto do conteudo */
+p.main-info{
+  background-color: white;
+  color: black;
+
+  width: 900px;
+  height: auto;
+  padding: 25px;
+}
+/* agendamento */
+
+table {
+		 
+	background: #000;
+	padding: 30px;
+	border-radius: 10px;
+	font-family:Comic Sans Ms;
+    font-weight: bold;
+    color: white;
+    width:555px;
+	border-color: #FF8C00;
+}
+/* ENdereço */
+table {
+		 
+  border-style: double;
+  border-radius:20px;
+ font-family: Verdana;
+        font-weight: bold;
+        max-width: 100px; 
+        width: 25px;
+
+ background-color: #0c111fa9;
+
+ padding: 10px;
+}
+td{
+ border-radius: 15px;
+ border-color:#00000000;
+}
+
+hr {
+   height: 20px;
+   color: #fbff00; 
+   border-style: double;
+   background-color:#FF8C00;
+   border-color: rgb(245, 245, 226) ;
+   border: 3px solid #FF8C00;
+   
+}
+/* CAFES RECOMENDADOS DIV */
+/* cafes Containers */
+.cafe-recomendado{
+  display: inline;
+  background-color: #313131;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+/* Cafes Conteudos */
+.cafe-row{
+  display: flex;
+  background-color: black;
+  overflow-y: scroll;
+  width:100%;
+
+  justify-content: start;
+}
+.cafe-row::-webkit-scrollbar{
+  display: flex;
+  justify-content: center;
+
+
+background-color: black;
+border-radius: 40ox;
+width: 400px;
+}
+.cafe-row::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 100px;
+}
+
+
+.cafe-row li {
+  margin: 15px;
+display: flex;
+justify-content: center;
+}
+.cafe-row label{
+  display: flex;
+ justify-content: center;
+}
+.cafe-row img{
+  width: 400px;
+  height: 400px;
+}
+ 
+
+
+a{
+  cursor: pointer;
+}
+/*  */
+/* pagina menu   */
+/*  */
+
+
+/* categorias de sabores e etc */
+nav.menu-drinks-categorias{
+    
+    background-color:rgb(0, 0, 0);
+    margin:auto;
+    width: 600px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px  1px black;
+}
+nav.menu-drinks-categorias lu{
+    display: flex;
+    justify-content: center;
+    padding:4px;
+}
+nav.menu-drinks-categorias li{
+    width: calc(100px + 100%);
+    border-radius: 100px;
+    text-align: center;
+    margin-left:10px;
+    display:inline;
+}
+.menu-drinks-categorias li:hover{
+    background-color: grey;
+
+}
+/* corpo do menu drink */
+.body-menu{
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+
+
+}
+
+.body-menu-drinks{
+  width: 1300px;
+  height: 100%;
+
+  padding: 14px;
+  background-color: white;
+}
+  /* drinkes item  */
+  .menu-drinks-items img,span ,p{
+      /* border:1px solid black; */
+      padding:6px;
+      color: black;
+  }
+  /* coluna do item */
+  .item-row{
+      display: flex;
+  }
+  /* conteiner de bebidas */ 
+  .drink-container{
+      max-width: 1500px; ;
+      display: flex;
+      flex-direction: column;
+      background-color: #d4d4d4;
+      padding: 10px;
+      box-shadow: 0px 0px 5px 1px  black;
+  }
+  /* paragrafo das bebidas */
+  div.drink-container p{
+      width: auto;
+      height: auto;
+
+      font:normal 20px arial;
+
+      max-width: 1100px;
+
+  }
+  /* conteiner dos textos */
+  .items-info-conteiner{
+      width: 100%;
+      margin: 10px;
+      background:#e9e9e9;
+      display: inline;
+  }
+  /* titulo da bebida */
+  .menu-drinks-items-titulo{
+      display: inline-flex;
+      width: 100%;
+
+  }
+  /* imagen do item */
+ .drink-logo img{
+  width: 180px;
+  height: 180px;
+
+  max-width: 180px;  
+  max-height: 180px;
+ }
+  /* texto do item */
+  span.menu-drinks-items-titulo{
+      font:bold 30px arial;
+      text-decoration-line:underline;
+  }
+  /* bebida info */
+  .item-info-item{
+  padding: 5px; 
+  }
+  
+/* fotter do site */
+
+section.hrbottom{
+  display:flex;
+  align-items: center;
+
+  flex-direction: row;
+  padding-left: 40px;
+  border:  30px;
+  height: auto;
+  width:100%;
+  background-color: #FF8C00;
+  position: relative;
+  top: 200px;
+  }
+  section.hrbottom li {
+  
+ 
+    color: #ffffff;
+      font-size: 85px;
+      margin: 3px;
+          font-family: Rosalia;
+          font-size: 25px;
+          justify-content: space-between;
+  }
+  .bottom-container{
+  padding: 14px;
+   display: flex;
+  }
+  .hrbottom iframe{
+    height: 200px;
+    width: 400px;
+  }
+  lu.redes{ 
+    display: flex;
+    flex-direction:column;
+
+    align-items: center;
+  }
+  lu.localizacao{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 100%;
+  }
+
+
+ /* agendamento */
+
+.registro{
+  background-color: white;
+  width: 100%;
+  padding: 45px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.registro label{
+  color: black;
+}
+
+
+
